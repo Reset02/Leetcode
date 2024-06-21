@@ -19,7 +19,7 @@ class Solution:
 
         # 進行二分搜索
         while left < right:
-            mid = (left + right + 1) // 2
+            mid = (left + right + 1) // 2 # 使用 (left + right + 1) // 2 向上取整
             if canPlaceBalls(mid):
                 left = mid  # 如果可以放置，嘗試更大的間距
             else:
