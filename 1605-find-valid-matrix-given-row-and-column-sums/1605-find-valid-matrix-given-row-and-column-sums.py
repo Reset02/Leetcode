@@ -1,17 +1,14 @@
 class Solution:
-    def restoreMatrix(self, rowSum: List[int], colSum: List[int]) -> List[List[int]]:
-        n = len(rowSum)
-        m = len(colSum)
+    def restoreMatrix(self, rowSum, colSum):
+        N = len(rowSum)
+        M = len(colSum)
 
-        curr_row_sum = [0] * n
-        curr_col_sum = [0] * m
+        orig_matrix = [[0] * M for _ in range(N)]
+        for i in range(N):
+            for j in range(M):
+                orig_matrix[i][j] = min(rowSum[i], colSum[j])
 
-        matrix = [[0] * m for _ in range(n)]
-        for i in range(n):
-            for j in range(m):
-                matrix[i][j] = min(rowSum[i] - curr_row_sum[i], colSum[j] - curr_col_sum[j])
+                rowSum[i] -= orig_matrix[i][j]
+                colSum[j] -= orig_matrix[i][j]
 
-                curr_row_sum[i] += matrix[i][j]
-                curr_col_sum[j] += matrix[i][j]
-        
-        return matrix
+        return orig_matrix
