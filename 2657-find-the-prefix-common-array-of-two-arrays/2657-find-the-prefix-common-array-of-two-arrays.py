@@ -6,24 +6,26 @@ class Solution(object):
         :rtype: List[int]
         """
         n = len(A)
-        prefix_common_array = [0] * n
+        prefix_common_array = [0 for _ in range(n)]
+        frequency = [0 for _ in range(n + 1)]
+        common_count = 0
 
-        # Loop through each index to calculate common elements for each prefix
+        # Iterate through the elements of both arrays
         for current_index in range(n):
-            common_count = 0
-
-            # Compare elements in A and B within the range of current prefix
-            for a_index in range(current_index + 1):
-                for b_index in range(current_index + 1):
-
-                    # Check if elements match, and count if they do
-                    if A[a_index] == B[b_index]:
-                        common_count += 1
-                        break # Prevent counting duplicates
             
+            # Increment frequency of current elements in A and B
+            # Check if the element in A has appeared before (common in prefix)
+            frequency[A[current_index]] += 1
+            if frequency[A[current_index]] == 2:
+                common_count += 1
+            
+            # Check if the element in B has appeared before (common in prefix)
+            frequency[B[current_index]] += 1
+            if frequency[B[current_index]] == 2:
+                common_count += 1
             # Store the count of common elements for the current prefix
             prefix_common_array[current_index] = common_count
 
-        # Return the final list with counts of common elements in each prefix
+        # Return the final array with counts of common elements in each prefix
         return prefix_common_array
         
