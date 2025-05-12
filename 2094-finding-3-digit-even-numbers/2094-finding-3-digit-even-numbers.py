@@ -8,7 +8,7 @@ class Solution:
             for j in range(n):
                 for k in range(n):
                     # Determine whether it meets the condition of the target even number
-                    if i == j or j == k or i == k:
+                    if i == j or j == k or i == k: # 保證三個位數使用的是不同位置上的數字（例如不能用同一個 index 拿兩次）
                         continue
                     num = digits[i] * 100 + digits[j] * 10 + digits[k]
                     if num >= 100 and num % 2 == 0:
