@@ -1,18 +1,12 @@
 class Solution:
     def findEvenNumbers(self, digits: List[int]) -> List[int]:
-        nums = set() # Target even set
-        n = len(digits)
+        nums = set()
 
-        # Traverse the indices of three digits
-        for i in range(n):
-            for j in range(n):
-                for k in range(n):
-                    # Determine whether it meets the condition of the target even number
-                    if i == j or j == k or i == k: # 保證三個位數使用的是不同位置上的數字（例如不能用同一個 index 拿兩次）
-                        continue
-                    num = digits[i] * 100 + digits[j] * 10 + digits[k]
-                    if num >= 100 and num % 2 == 0:
-                        nums.add(num)
-        # Converted to an array sorted in ascending order
-        res = sorted(list(nums))
-        return res
+        # 找出所有長度為 3 的排列組合（不重複 index）
+        for a, b, c in permutations(digits, 3):
+            # 檢查是否為合法的三位偶數
+            if a != 0 and c % 2 == 0:
+                num = a * 100 + b * 10 + c
+                nums.add(num)
+
+        return sorted(nums)
