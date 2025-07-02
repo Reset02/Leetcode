@@ -30,9 +30,12 @@ class Solution:
         dp = [0] * k
         dp[0] = 1  # 長度為 0 的唯一組合是空字串
 
+        # s 表示目前原始字串的目標長度。
+        # dp[s] 表示「湊出原始長度為 s 的方法數」。
         for num in groups:
             new_dp = [0] * k
-            sum_val = 0
+            sum_val = 0 # 滑動區間總和 new_dp[s] = dp[s - 1] + dp[s - 2] + ... + dp[s - num] 
+            # 因為目前這個 group 最多只能貢獻 num 個原始字元，所以只能從 s - 1 到 s - num 這些舊值加起來。
             for s in range(k):
                 if s > 0:
                     sum_val = (sum_val + dp[s - 1]) % self.MOD
