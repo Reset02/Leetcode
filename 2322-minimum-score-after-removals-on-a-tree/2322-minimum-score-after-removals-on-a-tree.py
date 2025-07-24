@@ -55,9 +55,9 @@ class Solution:
                     res = min(
                         res,
                         self.calc(
-                            sum_xor[0] ^ sum_xor[v], # 區塊 A：整棵樹 - u 子樹
-                            sum_xor[u] ^ sum_xor[v], # 區塊 B：u 子樹 - v 子樹
-                            sum_xor[v],              # 區塊 C：v 子樹
+                            sum_xor[0] ^ sum_xor[v],
+                            sum_xor[v] ^ sum_xor[u],
+                            sum_xor[u],
                         ),
                     )
                 # Case 3: u 和 v 無交集（不在彼此子樹內）
