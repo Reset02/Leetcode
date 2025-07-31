@@ -15,6 +15,6 @@ public:
                 result.insert(x);
             }
         }
-        return result;
+        return result.size();
     } 
 };
