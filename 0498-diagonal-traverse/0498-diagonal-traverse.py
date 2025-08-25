@@ -7,7 +7,7 @@ class Solution:
         result = []
         i, j, dir = 0, 0, 1  # dir=1 表示往右上, dir=-1 表示往左下
 
-        for i in range(m * n):
+        for _ in range(m * n):
             result.append(mat[i][j])
             if dir == 1: # 往右上
                 if j == n - 1: # 右邊界
