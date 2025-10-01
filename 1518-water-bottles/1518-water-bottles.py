@@ -1,16 +1,11 @@
 class Solution:
     def numWaterBottles(self, numBottles: int, numExchange: int) -> int:
-        consumed_bottles = 0
+        ans = numBottles # 一開始先把所有瓶子喝掉
+        empty = numBottles # 喝完後都是空瓶
 
-        while numBottles >= numExchange:
-            # Maximum number of times we can consume numExchange
-            # number of bottles using numBottles.
-            k = numBottles // numExchange
-
-            consumed_bottles += numExchange * k
-            numBottles -= numExchange * k
-
-            numBottles += k
+        while empty >= numExchange:
+            newFull = empty // numExchange # 換到的新瓶
+            ans += newFull # 喝掉
+            empty = empty % numExchange + newFull # 更新空瓶數
         
-        return consumed_bottles + numBottles
-        
+        return ans
