@@ -1,56 +1,62 @@
-from collections import defaultdict
-import heapq
+class DSU:
+    def __init__(self, size):
+        self.parent = list(range(size))
 
-def powerGridMaintenance(c, connections, queries):
-    # Step 1: 建立圖
-    graph = defaultdict(list)
-    for u, v in connections:
-        graph[u].append(v)
-        graph[v].append(u)
-    
-    # Step 2: DFS 找出所有連通分量
-    comp_id = [0] * (c + 1)
-    comp_nodes = defaultdict(list)
-    comp_index = 0
+    def find(self, x):
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
 
-    def dfs(u, cid):
-        comp_id[u] = cid
-        comp_nodes[cid].append(u)
-        for v in graph[u]:
-            if comp_id[v] == 0:
-                dfs(v, cid)
+    def join(self, u, v):
+        self.parent[self.find(v)] = self.find(u)
 
-    for i in range(1, c + 1):
-        if comp_id[i] == 0:
-            comp_index += 1
-            dfs(i, comp_index)
 
-    # Step 3: 為每個 component 建立 heap（初始全在線）
-    comp_heap = {}
-    for cid, nodes in comp_nodes.items():
-        heap = nodes[:]
-        heapq.heapify(heap)
-        comp_heap[cid] = heap
+class Solution:
+    def processQueries(
+        self, c: int, connections: List[List[int]], queries: List[List[int]]
+    ) -> List[int]:
+        dsu = DSU(c + 1)
+        for p in connections:
+            dsu.join(p[0], p[1])
 
-    offline = set()
-    res = []
+        online = [True] * (c + 1)
+        offline_counts = [0] * (c + 1)
+        minimum_online_stations = {}
 
-    # Step 4: 處理查詢
-    for typ, x in queries:
-        if typ == 1:
-            if x not in offline:
-                res.append(x)
-            else:
-                cid = comp_id[x]
-                heap = comp_heap[cid]
-                # 移除堆中離線的節點
-                while heap and heap[0] in offline:
-                    heapq.heappop(heap)
-                if heap:
-                    res.append(heap[0])
+        for q in queries:
+            op, x = q[0], q[1]
+            if op == 2:
+                online[x] = False
+                offline_counts[x] += 1
+
+        for i in range(1, c + 1):
+            root = dsu.find(i)
+            if root not in minimum_online_stations:
+                minimum_online_stations[root] = -1
+
+            station = minimum_online_stations[root]
+            if online[i]:
+                if station == -1 or station > i:
+                    minimum_online_stations[root] = i
+
+        ans = []
+        for i in range(len(queries) - 1, -1, -1):
+            op, x = queries[i][0], queries[i][1]
+            root = dsu.find(x)
+            station = minimum_online_stations[root]
+
+            if op == 1:
+                if online[x]:
+                    ans.append(x)
                 else:
-                    res.append(-1)
-        else:  # typ == 2
-            offline.add(x)
+                    ans.append(station)
 
-    return res
+            if op == 2:
+                if offline_counts[x] > 1:
+                    offline_counts[x] -= 1
+                else:
+                    online[x] = True
+                    if station == -1 or station > x:
+                        minimum_online_stations[root] = x
+
+        return ans[::-1]
