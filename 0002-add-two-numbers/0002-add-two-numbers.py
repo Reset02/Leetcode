@@ -9,9 +9,9 @@ class Solution:
         curr = dummyHead
         carry = 0
         while l1 or l2 or carry :
-            l1val = l1.val if l1 else 0
-            l2val = l2.val if l2 else 0
-            columnSum = l1val + l2val + carry
+            x = l1.val if l1 else 0
+            y = l2.val if l2 else 0
+            columnSum = x + y + carry
             carry = columnSum // 10
             newNode = ListNode(columnSum % 10)
             curr.next = newNode
