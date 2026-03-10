@@ -6,10 +6,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Reset02/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0217-contains-duplicate](https://github.com/Reset02/Leetcode/tree/main/0217-contains-duplicate/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Reset02/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0217-contains-duplicate](https://github.com/Reset02/Leetcode/tree/main/0217-contains-duplicate/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -22,4 +24,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Reset02/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/Reset02/Leetcode/tree/main/0217-contains-duplicate/) | Easy |
 <!---LeetCode Topics End-->
