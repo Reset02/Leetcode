@@ -56,4 +56,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Reset02/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/Reset02/Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 <!---LeetCode Topics End-->
