@@ -9,6 +9,7 @@
 | [0217-contains-duplicate](https://github.com/Reset02/Leetcode/tree/main/0217-contains-duplicate/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/Reset02/Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Reset02/Leetcode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0643-maximum-average-subarray-i](https://github.com/Reset02/Leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -56,6 +57,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Reset02/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0643-maximum-average-subarray-i](https://github.com/Reset02/Leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
