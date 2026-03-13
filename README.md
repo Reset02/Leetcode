@@ -14,6 +14,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Reset02/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/Reset02/Leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/Reset02/Leetcode/tree/main/0713-subarray-product-less-than-k/) | Medium |
+| [0724-find-pivot-index](https://github.com/Reset02/Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/Reset02/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -79,6 +80,7 @@
 | [0303-range-sum-query-immutable](https://github.com/Reset02/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Reset02/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/Reset02/Leetcode/tree/main/0713-subarray-product-less-than-k/) | Medium |
+| [0724-find-pivot-index](https://github.com/Reset02/Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/Reset02/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 ## Design
 | Problem Name | Difficulty |
