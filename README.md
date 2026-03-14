@@ -52,6 +52,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Reset02/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/Reset02/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0242-valid-anagram](https://github.com/Reset02/Leetcode/tree/main/0242-valid-anagram/) | Easy |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Reset02/Leetcode/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -93,6 +94,7 @@
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Reset02/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0739-daily-temperatures](https://github.com/Reset02/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Reset02/Leetcode/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
