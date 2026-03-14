@@ -52,12 +52,14 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Reset02/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/Reset02/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0242-valid-anagram](https://github.com/Reset02/Leetcode/tree/main/0242-valid-anagram/) | Easy |
+| [0844-backspace-string-compare](https://github.com/Reset02/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Reset02/Leetcode/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/Reset02/Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Reset02/Leetcode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0844-backspace-string-compare](https://github.com/Reset02/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -94,9 +96,14 @@
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Reset02/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0739-daily-temperatures](https://github.com/Reset02/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
+| [0844-backspace-string-compare](https://github.com/Reset02/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Reset02/Leetcode/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0739-daily-temperatures](https://github.com/Reset02/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0844-backspace-string-compare](https://github.com/Reset02/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 <!---LeetCode Topics End-->
