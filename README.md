@@ -49,6 +49,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Reset02/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0020-valid-parentheses](https://github.com/Reset02/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0242-valid-anagram](https://github.com/Reset02/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -86,4 +87,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Reset02/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/Reset02/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 <!---LeetCode Topics End-->
