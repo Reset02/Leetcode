@@ -15,6 +15,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/Reset02/Leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/Reset02/Leetcode/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/Reset02/Leetcode/tree/main/0724-find-pivot-index/) | Easy |
+| [0739-daily-temperatures](https://github.com/Reset02/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/Reset02/Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -91,4 +92,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Reset02/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
+| [0739-daily-temperatures](https://github.com/Reset02/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/Reset02/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 <!---LeetCode Topics End-->
