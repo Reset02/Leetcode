@@ -12,6 +12,7 @@
 | [0303-range-sum-query-immutable](https://github.com/Reset02/Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/Reset02/Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Reset02/Leetcode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/Reset02/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Reset02/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/Reset02/Leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/Reset02/Leetcode/tree/main/0713-subarray-product-less-than-k/) | Medium |
@@ -48,6 +49,7 @@
 | [0242-valid-anagram](https://github.com/Reset02/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/Reset02/Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Reset02/Leetcode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/Reset02/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -108,4 +110,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0844-backspace-string-compare](https://github.com/Reset02/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0435-non-overlapping-intervals](https://github.com/Reset02/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0435-non-overlapping-intervals](https://github.com/Reset02/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 <!---LeetCode Topics End-->
