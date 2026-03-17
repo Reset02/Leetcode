@@ -21,4 +21,5 @@ class Solution:
         
         if start_color != color:
             dfs(sr, sc)
+            
         return image
